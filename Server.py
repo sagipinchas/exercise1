@@ -215,7 +215,6 @@ class Server(object):
                 try:
                     connection.send("Sorry, too many clients connected")
                     logging.error("Sorry, too many clients connected")
-                    # connection.shutdown()
                     connection.close()
                 except:
                     print "Error on closing connection"
