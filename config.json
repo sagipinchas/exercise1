@@ -1,0 +1,14 @@
+{
+  "Port": 31337,
+  "Supported": [
+      "xp",
+      "xp sp2",
+      "xp sp3 x64",
+      "win7",
+      "win8",
+      "win8.1",
+      "win10"
+    ],
+  "Max clients": 2,
+  "Max machines": 5
+}
